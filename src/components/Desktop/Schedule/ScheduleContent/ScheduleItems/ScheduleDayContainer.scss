@@ -1,0 +1,24 @@
+.schedule-day {
+    font-size: 15vw;
+    opacity: 0.2;
+    font-family: 'CircularStd-Book';
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -15.4px;
+    text-align: left;
+    color: #9373cd;
+    display: inline-block;
+    float: left;
+}
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../../../../../public/fonts/CircularStd-Book.woff');
+}
+
+@font-face {
+    font-family: 'neo-latina';
+    src: url('../../../../../public/fonts/neo-latina.ttf');
+}

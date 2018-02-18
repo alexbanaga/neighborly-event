@@ -1,0 +1,142 @@
+html, body{
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  @media only screen and (max-width:480px) {
+    
+  .header {
+    
+  }
+  
+ }
+.invite {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #293da2, #042578);
+    box-shadow: 0 9px 4px 0 rgba(0, 0, 0, 0.5);
+    display: table;
+  }
+
+  .header {
+    margin-top: 2em;
+    vertical-align:middle;
+    text-align:center;
+    background-image: linear-gradient(to left, #9d26ff, #de2af7 9%, #ff5fc4 18%, #fbb888 33%, #9dfffd 73%, #6378e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative; 
+    font-size: 4vw;
+    font-family: 'neo-latina';
+    filter: drop-shadow(7px 7px 1px rgba(0,0,0, 0.5));
+  }
+  .invite-content {
+    display: block;
+    z-index: 5;
+    position: relative;
+  }
+  .particles {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: 1;
+  }
+
+
+  .minor-header {
+    margin-top: 0.7em;
+    opacity: 0.99;
+    background-image: linear-gradient(to right, #9d26ff, #de2af7 9%, #ff5fc4 18%, #fbb888 33%, #9dfffd 73%, #6378e8);
+    vertical-align:middle;
+    text-align:center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1vw;
+    font-family: 'CircularStd-Book';
+  }
+
+  .th {
+    margin-top: 0.7em;
+    margin-bottom: 2em;
+    font-family: 'CircularStd-Book';
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    text-align: left;
+    color: #ffffff;
+    vertical-align:middle;
+    text-align:center;
+  }
+  
+  .th .text-style-1 {
+    position: relative;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .th .text-style-2 {
+    font-weight: normal;
+  }
+
+  .must-have {
+    vertical-align:middle;
+    text-align:center;
+    opacity: 0.7;
+    font-family: 'CircularStd-Book';
+    font-size: 1vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    margin-bottom: 10em;
+  }
+
+  .inviteButton {
+    display: table;
+    
+    width: 13em;
+    height: 4em;
+    background-color: #143089;
+    box-shadow: 7px 10px 0 0 rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(251deg, #3d4c9a, #5a83b8 23%, #9dfffc 39%, #fca197 52%, #fe7faf 66%, #ef46dc 78%, #be29f9 86%, #6226fe);
+    border-image-slice: 1;
+    margin-bottom: 2em;
+  }
+
+  .center-button{
+    vertical-align:middle;
+    text-align:-webkit-center;
+    cursor:pointer;
+  }
+
+  .accept-invite-text {
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    font-family: 'CircularStd-Book';
+    font-size: 1vw;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 0.14);
+  }
+
+
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../../../public/fonts/CircularStd-Book.woff');
+}
+
+@font-face {
+    font-family: 'neo-latina';
+    src: url('../../../public/fonts/neo-latina.ttf');
+}

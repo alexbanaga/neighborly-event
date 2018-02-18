@@ -1,0 +1,21 @@
+.topic {
+    height: 65vw;
+    background-image: linear-gradient(to bottom, #a1d5c7 4%, #347eae 53%, #124294 99%);
+    transform:skewY(-10deg);
+  }
+
+.topic-align {
+  transform:skewY(10deg);
+  position: absolute;
+  z-index: 1
+}
+.left-topics{
+  margin-left:15vw;
+  display: inline-block;
+}
+
+.right-topics{
+  margin-left: 55vw;
+  position: absolute;
+  top:25vw;
+}

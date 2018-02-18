@@ -1,0 +1,17 @@
+.topic-background{
+    z-index: 1;
+    position: absolute;
+}
+
+.topic-bg-bottom-left {
+    left:0;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .topic-bg-top-right{
+    right:0;
+    top: 0;
+    position: fixed;
+    -webkit-transform: scaleX(-1);
+  }

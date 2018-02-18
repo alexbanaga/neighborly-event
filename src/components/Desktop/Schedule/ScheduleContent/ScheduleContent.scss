@@ -1,0 +1,34 @@
+.schedule-title-container{
+    vertical-align:middle;
+    text-align:center;
+    position: relative;
+    top:10vw;
+}
+.schedule-title{
+    position: relative;
+    font-size: 4vw;
+    background-image: linear-gradient(101deg, #ff9988, #d769ff 51%, #f65ffb);
+    -webkit-background-clip: text;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));
+    -webkit-text-fill-color: transparent;
+    font-family: 'neo-latina';
+}
+
+.schedule-underline{
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    border-radius: 3.5px;
+    background-image: linear-gradient(101deg, #ff9988, #d769ff 51%, #f65ffb);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../../../../public/fonts/CircularStd-Book.woff');
+}
+
+@font-face {
+    font-family: 'neo-latina';
+    src: url('../../../../public/fonts/neo-latina.ttf');
+}

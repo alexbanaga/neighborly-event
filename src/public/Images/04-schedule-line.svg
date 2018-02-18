@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="770" viewBox="0 0 25 770">
+    <defs>
+        <linearGradient id="c" x1="127.166%" x2="107.301%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#9D26FF"/>
+            <stop offset="24.603%" stop-color="#DE2AF7"/>
+            <stop offset="47.122%" stop-color="#FF5FC4"/>
+            <stop offset="63.16%" stop-color="#FBB888"/>
+            <stop offset="78.444%" stop-color="#9DFFFD"/>
+            <stop offset="100%" stop-color="#6378E8"/>
+        </linearGradient>
+        <rect id="b" width="6" height="748" x="2" y="7" rx="3"/>
+        <filter id="a" width="400%" height="102.1%" x="-75%" y="-.6%" filterUnits="objectBoundingBox">
+            <feOffset dx="9" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.0470588235 0 0 0 0 0.062745098 0 0 0 0 0.215686275 0 0 0 0.14 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(8 8)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="url(#c)" xlink:href="#b"/>
+        <circle cx="5" cy="4" r="4" fill="#5D56A8" stroke="#667FE9" stroke-width="16"/>
+        <circle cx="5" cy="748" r="4" fill="#6F56B0" stroke="#A426FE" stroke-width="16"/>
+        <circle cx="5" cy="564" r="4" fill="#7356B2" stroke="#E131F0" stroke-width="16"/>
+        <circle cx="5" cy="378" r="4" fill="#7356B2" stroke="#FE7DB0" stroke-width="16"/>
+        <circle cx="4" cy="192" r="4" fill="#7356B2" stroke="#A5F9F2" stroke-width="16"/>
+    </g>
+</svg>
