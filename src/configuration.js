@@ -1,3 +1,6 @@
+
+
+
 export const SPEAKERS = [
     {
         speakerName: "JOHN DOE",
@@ -90,6 +93,19 @@ export const SCHEDULE = [
         ]
     }, {
         dayNumber: "04",
+        events: [
+            {
+                time: "11:30-12:00",
+                title: "Doors open",
+                "description": "Integer tincidunt quam quam lacinaia"
+            }, {
+                time: "11:30-12:00",
+                title: "Doors open",
+                "description": "Integer tincidunt quam quam lacinaia"
+            }
+        ]
+    },{
+        dayNumber: "05",
         events: [
             {
                 time: "11:30-12:00",

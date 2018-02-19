@@ -9,8 +9,14 @@
     letter-spacing: -15.4px;
     text-align: left;
     color: #9373cd;
-    display: inline-block;
-    float: left;
+    position: relative; 
+}
+.schedule-day-container{
+}
+.schedule-img{
+    height: 40vw;
+    position: absolute;
+    margin-left:8vw;
 }
 
 @font-face {

@@ -1,18 +1,13 @@
 import React from 'react'
 import './ScheduleDayContainer.scss';
 
-const ScheduleDayContainer = ({ day, scheduleObject }) => {
-    debugger
+const ScheduleDayContainer = ({ day, events, imgPath }) => {
     return (
-        <div>
+        <div className="schedule-day-container">
+            <img className="schedule-img" src={imgPath} />
             <div className="schedule-day">
                 {day}
             </div>
-            {scheduleObject.map((event) => {
-                return (
-                    <div></div>
-                );
-            })}
         </div>
     )
 }
