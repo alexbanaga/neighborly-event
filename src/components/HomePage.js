@@ -7,6 +7,10 @@ import Topics from './Desktop/Topics/Topics';
 import Schedule from './Desktop/Schedule/Schedule';
 import Bio from './Desktop/Bio/Bio';
 import Ending from './Desktop/Ending/Ending';
+
+import MobileInvite from './Mobile/MobileInvite/MobileInvite';
+import MobileWhatIs from './Mobile/MobileWhatIs/MobileWhatIs';
+
 import './HomePage.scss';
 
 const HomePage = () => {
@@ -26,8 +30,11 @@ const HomePage = () => {
         </div>
       </MediaQuery>
       <MediaQuery maxDeviceWidth={800}>
-        asdasdasd
-    </MediaQuery>
+      <MobileInvite />
+      <div className="overlap-mobile">
+          <MobileWhatIs/>
+        </div>
+      </MediaQuery>
     </div>
   );
 };

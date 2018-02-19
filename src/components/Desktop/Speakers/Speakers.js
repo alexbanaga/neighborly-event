@@ -1,11 +1,13 @@
 import React from 'react'
 import './Speakers.scss';
 import SpeakerImg from './SpeakerImg/SpeakerImg';
+import SpeakersBackground from './SpeakersBackground/SpeakersBackground';
 import { SPEAKERS } from '../../../configuration';
 
 const Speakers = () => {
     return (
         <div className="speakers">
+        <SpeakersBackground/>
             <div className="speakers-container">
                 <div className="speakers-text-container">
                     <div className="speakers-header">SPEAKERS</div>

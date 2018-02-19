@@ -1,0 +1,85 @@
+.what-is-mobile {
+  transform:skewY(-10deg);
+  background-image: linear-gradient(179deg, #9a5b94, #202064);
+  height: 200vw;
+    .what-is-text-container-first{
+    display: inline-block;
+      margin-top:15vw;
+    }
+    .what-is-container{
+      transform:skewY(10deg);
+      }
+
+      .img {
+        height:50vw;
+        width: 50vw;
+      }
+      .what-is-header{
+      margin-left:20vw;
+        width:60vw;
+        color: #ffdeef ;
+          font-size: 15vw;
+          font-family: 'neo-latina';
+          text-align: center;
+        }
+      
+      .what-is-line {
+        margin-top:3vw;
+        margin-left:41vw;
+        margin-bottom: 1em;
+        text-align: center;
+        width: 15vw;
+        height: 1vw;
+        border-radius: 3.5px;
+        background-color: #ffdeef;
+        }
+      
+        .first-paragraph {
+          margin-left:15vw;
+          margin-top:10vw;
+          width: 80vw;
+          height: 3em;
+          font-family: 'CircularStd-Book';
+          font-size: 6vw;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.46;
+          letter-spacing: -1px;
+          text-align: left;
+          color: #d1b2e3;
+        }
+      
+        .second-paragraph {
+          width: 25em;
+          height: 3em;
+          opacity: 0.75;
+          font-family: 'CircularStd-Book';
+          font-size: 1.2vw;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.75;
+          letter-spacing: -0.8px;
+          text-align: left;
+          color: #b9bfee;
+        }
+      
+        .line-seperator{
+          margin-bottom: 0.5em;
+          height: 1px;
+          background-color: #4a4399;
+        }
+      
+  }
+
+
+  @font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../../../public/fonts/CircularStd-Book.woff');
+}
+
+@font-face {
+    font-family: 'neo-latina';
+    src: url('../../../public/fonts/neo-latina.ttf');
+}

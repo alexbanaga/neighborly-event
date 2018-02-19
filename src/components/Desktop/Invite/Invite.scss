@@ -11,8 +11,8 @@ html, body{
     background-image: linear-gradient(to bottom, #293da2, #042578);
     box-shadow: 0 9px 4px 0 rgba(0, 0, 0, 0.5);
     display: table;
-  }
 
+    
   .header {
     margin-top: 2em;
     vertical-align:middle;
@@ -127,8 +127,11 @@ html, body{
     }
     .envelope{
       margin-right:1vw;
+      height: 1.5vw;
     }
   }
+  }
+
 
 
 

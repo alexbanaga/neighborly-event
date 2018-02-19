@@ -18,7 +18,7 @@ const Invite = ({ }) => {
                 <div className="th">
                     May 14-15, <element className="text-style-1"> 2018 </element>/ The Battery SF
             </div>
-                <div className="center-button"><InviteButton /></div>
+                <div className="center-button"><InviteButton/></div>
                 <div className="must-have">{FIRST_SECTION.alert}</div>
             </div>
         </div>
