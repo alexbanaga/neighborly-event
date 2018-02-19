@@ -1,6 +1,6 @@
 import React from 'react'
 import './Ending.scss';
-import InviteButton from '../Invite/InviteButton';;
+import InviteButton from '../Invite/InviteButton';
 
 const Ending = () => {
     return (

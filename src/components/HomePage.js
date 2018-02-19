@@ -10,6 +10,7 @@ import Ending from './Desktop/Ending/Ending';
 
 import MobileInvite from './Mobile/MobileInvite/MobileInvite';
 import MobileWhatIs from './Mobile/MobileWhatIs/MobileWhatIs';
+import MobileSpeakers from './Mobile/MobileSpeakers/MobileSpeakers';
 
 import './HomePage.scss';
 
@@ -30,9 +31,10 @@ const HomePage = () => {
         </div>
       </MediaQuery>
       <MediaQuery maxDeviceWidth={800}>
-      <MobileInvite />
-      <div className="overlap-mobile">
-          <MobileWhatIs/>
+        <MobileInvite />
+        <div className="overlap-mobile">
+          <MobileWhatIs />
+          <MobileSpeakers />
         </div>
       </MediaQuery>
     </div>

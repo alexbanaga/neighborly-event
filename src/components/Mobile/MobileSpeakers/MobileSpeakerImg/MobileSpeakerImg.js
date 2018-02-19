@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './SpeakerImg.scss';
+import './MobileSpeakerImg.scss';
 
-const SpeakerImg = ({ speakerName, speakerPosition, speakerImgName }) => {
+const MobileSpeakerImg = ({ speakerName, speakerPosition, speakerImgName }) => {
     return (
-        <div className="speaker-container" >
+        <div className="mobile-speaker-container" >
         <img className="speaker-img-container" src={'../../../../public/images/' + speakerImgName}/>
             <div>
                 <div className="speaker-text-container">
@@ -17,10 +17,10 @@ const SpeakerImg = ({ speakerName, speakerPosition, speakerImgName }) => {
 }
 
 
-SpeakerImg.propTypes = {
+MobileSpeakerImg.propTypes = {
     speakerName: PropTypes.string.isRequired,
     speakerPosition: PropTypes.string.isRequired,
     speakerImgName: PropTypes.string.isRequired
 };
 
-export default SpeakerImg;
+export default MobileSpeakerImg;

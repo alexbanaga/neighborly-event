@@ -2,7 +2,7 @@ import React from 'react'
 import './WhatIs.scss';
 import {SECOND_SECTION} from '../../../configuration';
 
-const WhatIs = ({ }) => {
+const WhatIs = () => {
     return (
         <div className="what-is">
             <div className="what-is-container">

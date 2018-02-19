@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import './TopicContent.scss';
 
 const SingleTopic = ({ imgUrl, title, paragraphContent }) => {
@@ -14,5 +15,11 @@ const SingleTopic = ({ imgUrl, title, paragraphContent }) => {
         </div>
     )
 }
+
+SingleTopic.propTypes = {
+    imgUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    paragraphContent: PropTypes.string.isRequired
+};
 
 export default SingleTopic;

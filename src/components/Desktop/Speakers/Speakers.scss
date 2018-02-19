@@ -2,54 +2,56 @@
     width: 100%;
     background-image: linear-gradient(175deg, #e57c9b, #653192);
     transform:skewY(-10deg);
+    
+    .speakers-container{
+      transform:skewY(10deg);
+      vertical-align:middle;
+      text-align:center;
+      display: inline-block;
+      margin-left: 10vw;
+    }
+    
+    .speakers-text-container{
+      display: inline-block;
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      
+    }
+    .speakers-header{
+      background-image: linear-gradient(to right, #ffebf5, #ffa2bb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 4vw;
+      font-family: 'neo-latina';
+    }
+    .speakers-underline{
+      display: inline-block;
+      width: 3vw;
+      height: 0.3vw;
+      border-radius: 3.5px;
+      background-image: linear-gradient(to right, #ffebf5, #ffa2bb);
+      margin-bottom: 2em;
+    }
+    
+    .speakers-coming-soon{
+      font-family: 'CircularStd-Book';
+      font-size: 20px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: -0.9px;
+      color: #efbed4;
+    }
+    
+    .speakers-images-container{
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 25vw 25vw 25vw;
+    }
   }
 
-.speakers-container{
-  transform:skewY(10deg);
-  vertical-align:middle;
-  text-align:center;
-  display: inline-block;
-  margin-left: 10vw;
-}
 
-.speakers-text-container{
-  display: inline-block;
-  margin-top: 5vw;
-  margin-bottom: 5vw;
-  
-}
-.speakers-header{
-  background-image: linear-gradient(to right, #ffebf5, #ffa2bb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 4vw;
-  font-family: 'neo-latina';
-}
-.speakers-underline{
-  display: inline-block;
-  width: 3vw;
-  height: 0.3vw;
-  border-radius: 3.5px;
-  background-image: linear-gradient(to right, #ffebf5, #ffa2bb);
-  margin-bottom: 2em;
-}
-
-.speakers-coming-soon{
-  font-family: 'CircularStd-Book';
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.9px;
-  color: #efbed4;
-}
-
-.speakers-images-container{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 25vw 25vw 25vw;
-}
 
 @font-face {
   font-family: 'CircularStd-Book';

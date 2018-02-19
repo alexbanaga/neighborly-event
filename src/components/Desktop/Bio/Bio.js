@@ -2,7 +2,7 @@ import React from 'react'
 import './Bio.scss';
 import { BIO } from '../../../configuration';
 
-const Bio = ({ }) => {
+const Bio = () => {
     return (
         <div className="bio">
             <div className="bio-container">

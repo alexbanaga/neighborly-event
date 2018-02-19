@@ -99,28 +99,31 @@ export const SCHEDULE = [
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":0,
-            }, {
+            }, 
+            {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":1,
-            }, {
+            }, 
+            {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":2,
-            }, {
+            }, 
+            {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":3,
             },
-            , {
+            {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":4,
-            },
+            }
         ]
     },{
         dayNumber: "05",

@@ -5,7 +5,7 @@ import ScheduleTitle from './ScheduleContent/ScheduleTitle';
 import ScheduleDayContainer from './ScheduleContent/ScheduleItems/ScheduleDayContainer';
 import { SCHEDULE } from '../../../configuration';
 
-const Schedule = ({ }) => {
+const Schedule = () => {
     return (
         <div className="schedule">
             <ScheduleBackground />

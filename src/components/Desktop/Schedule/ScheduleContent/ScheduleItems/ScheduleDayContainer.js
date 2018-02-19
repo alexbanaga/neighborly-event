@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import './ScheduleDayContainer.scss';
 
 const dayLocationCases = {
@@ -23,9 +24,9 @@ const ScheduleDayContainer = ({ day, dayLocation, events, imgPath }) => {
                 </div>
             </div>
             <div className="events-container">
-                {events.map((event) => {
+                {events.map((event,idx) => {
                     return (
-                        <div className={"single-event-container "+eventLocationCases[event.eventLocation]}>
+                        <div key={idx} className={"single-event-container "+eventLocationCases[event.eventLocation]}>
                             <div className="single-event-time-container">
                                 <div className="event-time">{event.time}</div>
                             </div>
@@ -40,5 +41,13 @@ const ScheduleDayContainer = ({ day, dayLocation, events, imgPath }) => {
         </div>
     )
 }
+
+
+ScheduleDayContainer.propTypes = {
+    day: PropTypes.string.isRequired,
+    dayLocation: PropTypes.number.isRequired,
+    events: PropTypes.array.isRequired,
+    imgPath: PropTypes.string.isRequired
+};
 
 export default ScheduleDayContainer;

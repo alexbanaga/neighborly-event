@@ -2,7 +2,7 @@ import React from 'react'
 import './MobileWhatIs.scss';
 import {SECOND_SECTION} from '../../../configuration';
 
-const MobileWhatIs = ({ }) => {
+const MobileWhatIs = () => {
     return (
         <div className="what-is-mobile">
             <div className="what-is-container">

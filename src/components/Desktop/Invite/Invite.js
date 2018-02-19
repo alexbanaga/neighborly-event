@@ -5,7 +5,7 @@ import Particles from 'react-particles-js';
 import { particlesCfg } from './ParticlesCfg';
 import {FIRST_SECTION} from '../../../configuration';
 
-const Invite = ({ }) => {
+const Invite = () => {
     return (
         <div className="invite">
             <div className="particles-container"> <Particles className="particles" params={{

@@ -2,7 +2,7 @@ import React from 'react'
 import './Invite.scss';
 import {FIRST_SECTION} from '../../../configuration';
 
-const InviteButton = ({ }) => {
+const InviteButton = () => {
     return (
         <div className="inviteButton">
             <div className="accept-invite-text">

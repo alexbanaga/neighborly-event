@@ -1,0 +1,54 @@
+.mobile-speakers {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(175deg, #e57c9b, #653192);
+    transform:skewY(-10deg);
+
+    .speakers-container{
+        transform:skewY(10deg);
+        vertical-align:middle;
+        text-align:center;
+        display: inline-block;
+        
+      }
+      
+      .speakers-text-container{
+        display: inline-block;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        margin-left: 8vw;
+        
+      }
+      .speakers-header{
+        margin-top:10vw;
+        margin-bottom:2vw;
+        color: #ffdeef;
+        font-size: 12vw;
+        font-family: 'neo-latina';
+      }
+      .speakers-underline{
+        display: inline-block;
+        width: 12vw;
+        height: 1vw;
+        border-radius: 3.5px;
+        background-image: linear-gradient(to right, #ffdeef);
+        margin-bottom: 2em;
+      }
+      
+      .speakers-coming-soon{
+        font-family: 'CircularStd-Book';
+        font-size: 5vw;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.9px;
+        color: #efbed4;
+      }
+      
+      .speakers-images-container{
+     
+      }
+    
+
+}

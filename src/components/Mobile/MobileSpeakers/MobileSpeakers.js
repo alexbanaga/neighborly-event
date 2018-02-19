@@ -1,13 +1,11 @@
 import React from 'react'
-import './Speakers.scss';
-import SpeakerImg from './SpeakerImg/SpeakerImg';
-import SpeakersBackground from './SpeakersBackground/SpeakersBackground';
+import './MobileSpeakers.scss';
+import MobileSpeakerImg from './MobileSpeakerImg/MobileSpeakerImg';;
 import { SPEAKERS } from '../../../configuration';
 
-const Speakers = () => {
+const MobileSpeakers = () => {
     return (
-        <div className="speakers">
-        <SpeakersBackground/>
+        <div className="mobile-speakers">
             <div className="speakers-container">
                 <div className="speakers-text-container">
                     <div className="speakers-header">SPEAKERS</div>
@@ -15,8 +13,8 @@ const Speakers = () => {
                     <div className="speakers-coming-soon">More speakers coming soon...</div>
                 </div>
                 <div className="speakers-images-container">
-                    {SPEAKERS.map((speaker,index) => {
-                        return (<SpeakerImg key={index} speakerImgName={speaker.speakerImgName} speakerName={speaker.speakerName} speakerPosition={speaker.speakerPosition} />);
+                    {SPEAKERS.map((speaker, index) => {
+                        return (<MobileSpeakerImg key={index} speakerImgName={speaker.speakerImgName} speakerName={speaker.speakerName} speakerPosition={speaker.speakerPosition} />);
                     })}
                 </div>
             </div>
@@ -25,4 +23,4 @@ const Speakers = () => {
     )
 }
 
-export default Speakers;
+export default MobileSpeakers;
