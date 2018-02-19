@@ -1,3 +1,21 @@
+.schedule-container{
+    display: flex;
+    position: relative;
+}
+
+.schedule-day-container{
+    display: table;
+}
+
+.single-event-container {
+    display: flex;
+    width: 15vw;
+    position: absolute;
+}
+.single-event-time-container{
+    width:8vw;
+    margin-top: 0.2vw;
+}
 .schedule-day {
     font-size: 15vw;
     opacity: 0.2;
@@ -9,14 +27,77 @@
     letter-spacing: -15.4px;
     text-align: left;
     color: #9373cd;
-    position: relative; 
 }
-.schedule-day-container{
-}
+
 .schedule-img{
-    height: 40vw;
+    height: 42vw;
     position: absolute;
     margin-left:8vw;
+}
+
+
+.day-03{
+}
+
+.day-04{
+    margin-top: 15vw;
+}
+
+.day-05{
+    margin-top: 30vw;
+}
+.event-0{
+    
+}
+.event-1{
+    margin-top: 10vw;
+}
+.event-2{
+    margin-top: 20vw;
+}
+.event-3{
+    margin-top: 30vw;
+}
+.event-4{
+    margin-top: 40vw;
+}
+.events-container{
+    position: absolute;
+    margin-left: 3vw;
+}
+
+.event-title{
+    font-size: 1.2vw;
+    font-family: 'CircularStd-Book';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #ffffff;
+}
+.event-description {
+    font-size: 0.7vw;
+    font-family: 'CircularStd-Book';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #bfb4ef;
+}
+.event-time{
+    font-size: 0.9vw;
+    font-family: 'CircularStd-Book';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    text-align: left;
+    color: #aed6ed;
 }
 
 @font-face {

@@ -76,20 +76,9 @@ export const SCHEDULE = [
             {
                 time: "11:30-12:00",
                 title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
-            }, {
-                time: "11:30-12:00",
-                title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
-            }, {
-                time: "11:30-12:00",
-                title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
-            }, {
-                time: "11:30-12:00",
-                title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
-            },
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":4,
+            }
         ]
     }, {
         dayNumber: "04",
@@ -97,12 +86,30 @@ export const SCHEDULE = [
             {
                 time: "11:30-12:00",
                 title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":0,
             }, {
                 time: "11:30-12:00",
                 title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
-            }
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":1,
+            }, {
+                time: "11:30-12:00",
+                title: "Doors open",
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":2,
+            }, {
+                time: "11:30-12:00",
+                title: "Doors open",
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":3,
+            },
+            , {
+                time: "11:30-12:00",
+                title: "Doors open",
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":4,
+            },
         ]
     },{
         dayNumber: "05",
@@ -110,11 +117,13 @@ export const SCHEDULE = [
             {
                 time: "11:30-12:00",
                 title: "Doors open",
-                "description": "Integer tincidunt quam quam lacinaia"
+                "description": "Integer tincidunt quam quam lacinaia",
+                "eventLocation":0,
             }, {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia"
+                ,"eventLocation":1,
             }
         ]
     },

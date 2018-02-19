@@ -7,6 +7,8 @@
     left:0;
     bottom: 0;
     position: fixed;
+    height: 20vw;
+    
   }
   
   .schedule-bg-top-right{
@@ -14,4 +16,5 @@
     top: 0;
     position: fixed;
     -webkit-transform: scaleX(-1);
+    height: 25vw;
   }
