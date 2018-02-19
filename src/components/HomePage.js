@@ -6,6 +6,7 @@ import Speakers from './Desktop/Speakers/Speakers';
 import Topics from './Desktop/Topics/Topics';
 import Schedule from './Desktop/Schedule/Schedule';
 import Bio from './Desktop/Bio/Bio';
+import Ending from './Desktop/Ending/Ending';
 import './HomePage.scss';
 
 const HomePage = () => {
@@ -20,8 +21,7 @@ const HomePage = () => {
             <Topics />
             <Schedule />
             <Bio />
-          </div>
-          <div className="Rectangle-5-Copy">
+            <Ending />
           </div>
         </div>
       </MediaQuery>

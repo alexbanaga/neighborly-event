@@ -1,5 +1,16 @@
 
+export const FIRST_SECTION = {
+    header: "THE FUTURE OF PUBLIC FINANCE",
+    minorHeader:"Join us to revolutionize the trillion-dollar market that shapes our future.",
+    alert:"MUST HAVE RECEIVED INVATIATION TO ACCEPT INVATIATION",
+    buttonContent:"ACCEPT INVITE"
+}
 
+export const SECOND_SECTION = {
+    header:"WHAT IS TFPF?",
+    firstParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci.",
+    secondParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci."
+}
 
 export const SPEAKERS = [
     {
@@ -128,3 +139,7 @@ export const SCHEDULE = [
         ]
     },
 ]
+
+export const BIO = {
+    bioText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci."
+}

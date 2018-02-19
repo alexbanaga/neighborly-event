@@ -1,5 +1,6 @@
 import React from 'react'
 import './WhatIs.scss';
+import { SECOND_SECTION } from '../../../configuration';
 
 const WhatIs = ({ }) => {
     return (
@@ -7,13 +8,13 @@ const WhatIs = ({ }) => {
             <div className="what-is-container">
                 <div className="what-is-text-container-first">
                     <div className="what-is-text-container">
-                        <div className="what-is-header">WHAT IS TFPF?</div>
+                        <div className="what-is-header">{SECOND_SECTION.header}</div>
                         <div className="what-is-line"></div>
                         <div className="first-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci.
+                            
                         </div>
-                        <div className="line-seperator"></div>
-                        <div className="second-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci.</div>
+                        <div className="line-seperator">{SECOND_SECTION.firstParagraph}</div>
+                        <div className="second-paragraph">{SECOND_SECTION.secondParagraph}</div>
                     </div>
                 </div>
                 <div className="what-is-img">
