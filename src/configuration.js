@@ -144,5 +144,6 @@ export const SCHEDULE = [
 ]
 
 export const BIO = {
-    bioText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci."
+    bioText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci.",
+    bioAddress:"The Battery San Francisco, CA 94111"
 }

@@ -22,7 +22,17 @@ const Bio = () => {
                     </div>
                 </div>
                 <div className="bio-img-container">
-                    asasdasd
+                    <div> <img className="bio-img" src="../../../public/images/bio-picture.png" /></div>
+                    <div className="bio-address-container">
+                        <div>
+                            <img className="bio-address-location" src="../../../public/images/pin-location-large.svg" />
+                        </div>
+                        <div className="bio-address-text">
+                        <div className="bio-text-highlight">The Battery </div><div> San Francisco, CA 94111</div>
+                        </div>
+                    </div>
+                    <div className="bio-text-underline"> </div>
+                    
                 </div>
             </div>
 
