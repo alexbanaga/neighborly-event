@@ -1,7 +1,7 @@
 {
-  "name": "react-slingshot",
+  "name": "Public Finance",
   "version": "7.0.1",
-  "description": "Starter kit for creating apps with React and Redux",
+  "description": "Public Finance",
   "engines": {
     "npm": ">=3"
   },
@@ -28,7 +28,7 @@
     "open:cover": "npm run test:cover && opn ./coverage/lcov-report/index.html",
     "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
   },
-  "author": "Cory House",
+  "author": "David Shusterman",
   "license": "MIT",
   "dependencies": {
     "object-assign": "4.1.0",
