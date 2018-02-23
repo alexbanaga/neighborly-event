@@ -1,6 +1,6 @@
 import React from 'react'
 import './MobileSpeakers.scss';
-import MobileSpeakerImg from './MobileSpeakerImg/MobileSpeakerImg';;
+import MobileSpeakerImg from './MobileSpeakerImg/MobileSpeakerImg';
 import { SPEAKERS } from '../../../configuration';
 
 const MobileSpeakers = () => {

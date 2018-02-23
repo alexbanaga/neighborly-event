@@ -1,5 +1,5 @@
-.topic {
-    height: 65vw;
+.mobile-topic {
+    height: 480vw;
     background-image: linear-gradient(to bottom, #a1d5c7 4%, #347eae 53%, #124294 99%);
     transform:skewY(-10deg);
     
@@ -9,13 +9,7 @@
       z-index: 1
     }
     .left-topics{
-      margin-left:15vw;
-      display: inline-block;
+        margin-top:10vw;
     }
-
-    .right-topics{
-      margin-left: 55vw;
-      position: absolute;
-      top:25vw;
-    }
+    
   }

@@ -1,22 +1,18 @@
-.schedule-container{
-    display: flex;
-    position: relative;
-
+.mobile-schedule-container{
+    
+    
     .schedule-day-container{
-        display: table;
+        margin-top: 10vw;   
     }
     
     .single-event-container {
-        display: flex;
-        width: 15vw;
-        position: absolute;
+        margin-left:30vw;     
+        margin-bottom: 10vw;   
     }
-    .single-event-time-container{
-        width:8vw;
-        margin-top: 0.2vw;
-    }
+
     .schedule-day {
-        font-size: 15vw;
+        margin-left:5vw;
+        font-size: 75vw;
         opacity: 0.2;
         font-family: 'CircularStd-Book';
         font-weight: bold;
@@ -24,49 +20,22 @@
         font-stretch: normal;
         line-height: normal;
         letter-spacing: -15.4px;
-        text-align: left;
+        text-align: center;
         color: #9373cd;
-    }
-    
-    .schedule-img{
-        height: 42vw;
+        z-index: 1;
         position: absolute;
-        margin-left:8vw;
     }
+
     
-    
-    .day-03{
-    }
-    
-    .day-04{
-        margin-top: 15vw;
-    }
-    
-    .day-05{
-        margin-top: 30vw;
-    }
-    .event-0{
-        
-    }
-    .event-1{
-        margin-top: 10vw;
-    }
-    .event-2{
-        margin-top: 20vw;
-    }
-    .event-3{
-        margin-top: 30vw;
-    }
-    .event-4{
-        margin-top: 40vw;
-    }
     .events-container{
-        position: absolute;
-        margin-left: 3vw;
+        position: relative;
+        top:35vw;
     }
+
     
     .event-title{
-        font-size: 1.2vw;
+        margin-bottom: 2vw;
+        font-size: 7vw;
         font-family: 'CircularStd-Book';
         font-weight: 500;
         font-style: normal;
@@ -77,7 +46,9 @@
         color: #ffffff;
     }
     .event-description {
-        font-size: 0.7vw;
+        width:60vw;
+        margin-bottom: 2vw;
+        font-size: 5vw;
         font-family: 'CircularStd-Book';
         font-weight: normal;
         font-style: normal;
@@ -88,7 +59,7 @@
         color: #bfb4ef;
     }
     .event-time{
-        font-size: 0.9vw;
+        font-size: 4vw;
         font-family: 'CircularStd-Book';
         font-weight: 500;
         font-style: normal;
@@ -97,6 +68,22 @@
         letter-spacing: -0.7px;
         text-align: left;
         color: #aed6ed;
+    }
+
+    .event-0 {
+        color: #aed6ed;
+    }
+    .event-1 {
+        color: #b1f0e4;
+    }
+    .event-2 {
+        color: #ffb7db;
+    }
+    .event-3 {
+        color: #dbafff;
+    }
+    .event-4 {
+        color: #dbafff;
     }
 }
 

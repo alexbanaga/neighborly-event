@@ -11,6 +11,9 @@ import Ending from './Desktop/Ending/Ending';
 import MobileInvite from './Mobile/MobileInvite/MobileInvite';
 import MobileWhatIs from './Mobile/MobileWhatIs/MobileWhatIs';
 import MobileSpeakers from './Mobile/MobileSpeakers/MobileSpeakers';
+import MobileTopics from './Mobile/MobileTopics/MobileTopics';
+import MobileSchedule from './Mobile/MobileSchedule/MobileSchedule';
+import MobileBio from './Mobile/MobileBio/MobileBio';
 
 import './HomePage.scss';
 
@@ -35,6 +38,9 @@ const HomePage = () => {
         <div className="overlap-mobile">
           <MobileWhatIs />
           <MobileSpeakers />
+          <MobileTopics />
+          <MobileSchedule />
+          <MobileBio />
         </div>
       </MediaQuery>
     </div>

@@ -1,28 +1,28 @@
-.topic-title-container{
-    margin-left: 20vw;
+.mobile-topic-title-container{
     margin-top: 15vw;
+    
     .topic-header{
         font-family: 'neo-latina';
-        background-image: linear-gradient(to right, #a5ebf1, #95e7ff 54%, #f4ca89);
-        font-size: 4vw;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: left;
+        color: #ffffff;
+        font-size: 12vw;
+        text-align: center;
     }
     
     .topic-underline{
-        margin-bottom: 1vw;
+        margin-left: 43vw;
+        margin-top: 3vw;
         text-align: center;
-        width: 50px;
-        height: 5px;
+        width: 14vw;
+        height: 1vw;
         border-radius: 3.5px;
-        background-image: linear-gradient(to right, #a5ebf1, #e9a7a7 54%, #f4ca89);
+        background-image: linear-gradient(to right, #ffffff);
     }
     
     .topic-paragraph {
-        width: 32vw;
-        height: 10vw;
-        font-size: 1.5vw;
+        width: 90%;
+        margin-top:5vw;
+        margin-left:5vw;
+        font-size: 5vw;
         font-family: 'CircularStd-Book';
         font-weight: normal;
         font-style: normal;
@@ -30,52 +30,54 @@
         line-height: 1.5;
         letter-spacing: -0.9px;
         text-align: left;
-        color: #a3d3f1;
+        color: #c6eced;
         margin-bottom: 2vw;
         display: inline-block;
     }
     
     
-    
-    
-    
 }
 
-.single-topic-container{
-    margin-bottom: 4vw;
+
+.mobile-single-topic-container{
+    margin-bottom: 15vw;
     position: relative;
+
+
     .single-topic-img{
-        margin-right: 1vw;
-        float: left;
+        width:20vw;
+        height: 20vw;
+        margin-left:40vw;
     }
     .single-topic-text-container{
-        margin-bottom: 2vw;
     }
     .single-topic-title{
         font-family: 'CircularStd-Book';
-        font-size: 1.4vw;
+        font-size: 5vw;
         font-weight: 500;
         font-style: normal;
         font-stretch: normal;
         line-height: normal;
         letter-spacing: -1px;
-        text-align: left;
+        text-align: center;
         color: #ffffff;
     }
     .single-topic-paragraph-content{
+        margin-left:5vw;
+        width:90%;
         font-family: 'CircularStd-Book';
-        width:35vw;
-        font-size: 1.2vw;
+        font-size: 5vw;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
-        line-height: 1.45;
-        letter-spacing: -1.2px;
-        text-align: left;
+        line-height: 1.41;
+        letter-spacing: -1px;
+        text-align: center;
         color: #a3d3f1;
         margin-bottom:4vw; 
     }
 }
+
 @font-face {
     font-family: 'CircularStd-Book';
     src: url('../../../../public/fonts/CircularStd-Book.woff');
