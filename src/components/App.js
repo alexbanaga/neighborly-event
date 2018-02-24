@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage';
-
+import Container from './Container';
 
 class App extends React.Component {
   render() {
@@ -11,6 +11,7 @@ class App extends React.Component {
       <div>
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route exact path="/home" component={Container}/>
         </Switch>
       </div>
     );
