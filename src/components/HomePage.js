@@ -7,6 +7,7 @@ import Topics from './Desktop/Topics/Topics';
 import Schedule from './Desktop/Schedule/Schedule';
 import Bio from './Desktop/Bio/Bio';
 import Ending from './Desktop/Ending/Ending';
+import LoginPage from './Desktop/LoginPage/LoginPage';
 
 import MobileInvite from './Mobile/MobileInvite/MobileInvite';
 import MobileWhatIs from './Mobile/MobileWhatIs/MobileWhatIs';
@@ -22,7 +23,7 @@ const HomePage = () => {
   return (
     <div>
       <MediaQuery minDeviceWidth={800}>
-        <div>
+       <div>
           <Invite />
           <WhatIs />
           <div className="overlap">
@@ -32,7 +33,7 @@ const HomePage = () => {
             <Bio />
             <Ending />
           </div>
-        </div>
+       </div>
       </MediaQuery>
       <MediaQuery maxDeviceWidth={800}>
         <MobileInvite />

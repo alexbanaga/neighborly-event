@@ -1,0 +1,152 @@
+html, body{
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    background-color: #f7f9fc;
+  }
+
+.login-page {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+       
+.particles {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .form-container{
+    margin-top:10vw;
+    margin-left:37vw;
+    position: relative;
+  }
+  .form-bg{
+    z-index: 10;
+    position: absolute;
+    width: 28vw;
+    height:32vw;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 51px 116px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .form-content-container{
+    position: absolute;
+    z-index: 20;
+    margin-left:1.5vw;
+  }
+
+  .form-logo{
+    border-radius: 50%;
+    width: 9vw;
+    height: 9vw;
+    background-image: linear-gradient(139deg, #9d26ff, #de2af7 25%, #ff5fc4 47%, #fbb888 63%, #9dfffd 78%, #6378e8);
+    margin-top:3vw;
+    margin-left:8vw;
+  }
+
+  .logo-text {
+    font-family: Helvetica;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+  }
+
+  .login-inputs{
+    border: 0;
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+      margin-left:5vw;
+      margin-top: 1vw;
+    width:15vw;
+    height: 2vw;
+    background-color: #f1f4f8;
+
+    margin-left:5vw;
+    font-family: 'Helvetica';
+    font-size:1vw;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b1b4b9;
+    text-indent: 1vw;
+  }
+
+  .login-inputs::-webkit-input-placeholder{
+    text-indent: 1vw; 
+    margin-left:5vw;
+    font-family: 'Helvetica';
+    font-size:1vw;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b1b4b9;
+  }
+
+  .access-btn{
+    margin-top:3vw;
+    margin-left:5vw;
+    height: 2.5vw;
+    width: 15vw;
+    border-radius: 4px;
+    background-image: linear-gradient(to left, #9d26ff, #de2af7 25%, #ff5fc4 47%, #fbb888 90%);
+  }
+  .access-btn-text{
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Helvetica';
+    font-size: 1vw;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .login-hr{
+      border: none;
+    height: 0.1vw;
+    margin-top:1vw;
+    margin-left:5vw;
+    width: 15vw;
+    background-color: #efefef;
+  }
+
+  .login-text{
+      width:15vw;
+      margin-left:5vw;
+    font-family: Helvetica;
+    font-size: 0.9vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6d7c91;
+  }
+
+  .login-email{
+    font-family:Helvetica;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+
