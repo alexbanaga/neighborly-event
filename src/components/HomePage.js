@@ -14,6 +14,7 @@ import MobileSpeakers from './Mobile/MobileSpeakers/MobileSpeakers';
 import MobileTopics from './Mobile/MobileTopics/MobileTopics';
 import MobileSchedule from './Mobile/MobileSchedule/MobileSchedule';
 import MobileBio from './Mobile/MobileBio/MobileBio';
+import MobileEnding from './Mobile/MobileEnding/MobileEnding';
 
 import './HomePage.scss';
 
@@ -41,6 +42,7 @@ const HomePage = () => {
           <MobileTopics />
           <MobileSchedule />
           <MobileBio />
+          <MobileEnding />
         </div>
       </MediaQuery>
     </div>

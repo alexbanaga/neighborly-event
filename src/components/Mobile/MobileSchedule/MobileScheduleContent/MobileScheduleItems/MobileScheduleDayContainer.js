@@ -14,7 +14,7 @@ const eventLocationCases = {
     3: "event-3",
     4: "event-4"
 }
-const MobileScheduleDayContainer = ({ day, dayLocation, events, imgPath }) => {
+const MobileScheduleDayContainer = ({ day, dayLocation, events }) => {
     return (
         <div className="mobile-schedule-container">
             <div className="schedule-day-container">

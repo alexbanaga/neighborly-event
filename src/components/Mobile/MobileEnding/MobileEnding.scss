@@ -1,15 +1,15 @@
-.ending {
+.mobile-ending {
     width:100%;
-    height: 30vw;
+    height: 90vw;
     background-color: #f7f9fc;
     .inviteButton {
         display: table;
-        width: 15vw;;
-        height: 4vw;;
+        width: 70vw;
+        height: 20vw;;
         background-color: #143089;
         box-shadow: 7px 10px 0 0 rgba(0, 0, 0, 0.3);
         border-style: solid;
-        border-width: 4px;
+        border-width: 1.3vw;
         border-image-source: linear-gradient(251deg, #3d4c9a, #5a83b8 23%, #9dfffc 39%, #fca197 52%, #fe7faf 66%, #ef46dc 78%, #be29f9 86%, #6226fe);
         border-image-slice: 1;
         margin-bottom: 2em;
@@ -26,41 +26,45 @@
         vertical-align:middle;
         text-align:center;
         font-family: 'CircularStd-Book';
-        font-size: 1vw;
+        font-size: 5vw;
         font-weight: bold;
         font-style: normal;
         font-stretch: normal;
         line-height: normal;
-        letter-spacing: 1px;
+        letter-spacing: 0.5vw;
         color: #ffffff;
         text-shadow: 0 3px 0 rgba(0, 0, 0, 0.14);
     
         .container{
-          margin-left:2vw;
+
+          margin-left:7vw;
           display: flex;
         }
         .envelope{
-          margin-right:1vw;
-          height: 1.5vw;
+          margin-right:3vw;
+          height: 6vw;
         }
       }
       
 .ending-button-and-text-container{
-    display: flex;    
 }
-
+.ending-sub-header{
+    margin-top:5vw;
+}
 .ending-text-container{
-    margin-top:10vw;
     margin-left:10vw;
-    width:50vw;
+    margin-top:10vw;
+    text-align: center;
 }
 
 .ending-button-container{
     margin-top:13vw;
+    margin-left: 15vw;
 }
 
 .ending-button-under-text{
-    font-size: 1vw;
+    margin-top:5vw;
+    font-size: 3vw;
     opacity: 0.69;
     font-family: 'CircularStd-Book';
     font-weight: 500;
@@ -72,8 +76,8 @@
     color: #b6c2c9;
 }
 .ending-text{
-    margin-top: 2vw;
-   font-size: 1.5vw;
+    width:80%;
+   font-size: 5vw;
     font-family: 'CircularStd-Book';
     font-weight: normal;
     font-style: normal;
@@ -85,8 +89,8 @@
 }
 
 .ending-date{
-    margin-top: 4vw;
-    font-size:1vw;
+    margin-top: 10vw;
+    font-size:4vw;
     font-family: 'CircularStd-Book';
     font-weight: 500;
     font-style: normal;
@@ -101,42 +105,42 @@
     color: #b5c4d3;
 }
 .ending-underline{
-    margin-left:16.5vw;
-    width:15vw;
-    height: 0.2vw;
+    width:55vw;
+    height: 0.5vw;
     background-image: linear-gradient(to left, #5826ff, #de2af7 25%, #ff5fc4 47%, #fbb888 63%, #9dfffd 78%, #3c4b99);
 }
 
 .hr-seperator{
-    margin-left:10vw;
-    height: 0.1vw;
-    width: 75vw;
+    margin-left:15vw;
+    height: 0.4vw;
+    width: 70vw;
     background-color: #e3e7eb;
 }
 
 .ending-bottom-container{
-    margin-top: 1vw;
+    margin-top: 5vw;
 }
 
 .ending-header {
     vertical-align:middle;
     text-align:left;
-    background-image: linear-gradient(to left, #5826ff, #de2af7 25%, #ff5fc4 47%, #fbb888 63%, #9dfffd 78%, #3c4b99);
+    background-image: linear-gradient(to left,#3a429f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position:relative; 
-    font-size: 5vw;
+    font-size: 12vw;
     font-family: 'neo-latina';
-    filter: drop-shadow(7px 7px 1px rgba(0,0,0, 0.1));
   }
 
   .ending-copyright-contact{
       display: flex;
-      margin-top: 2vw;
+      margin-top: 10vw;
+      margin-bottom: 10vw;
   }
 .ending-copyright{
-    margin-left: 10vw;
-    font-size: 1vw;
+    margin-top:10vw;
+    margin-left: 17vw;
+    font-size: 4vw;
     font-family: 'CircularStd-Book';
     font-weight: normal;
     font-style: normal;
@@ -148,10 +152,10 @@
 }
 
 .ending-contact{
-    margin-left:45vw;
+    margin-left:20vw;
     .ending-contant-header{
-        margin-bottom: 1vw;
-        font-size: 1.1vw;
+        margin-bottom: 5vw;
+        font-size: 4vw;
         font-family: 'CircularStd-Book';
         font-weight: bold;
         font-style: normal;
@@ -164,7 +168,7 @@
     .ending-contant-email{
         opacity: 0.7;
         font-family: 'CircularStd-Book';
-        font-size: 0.9vw;;
+        font-size: 3vw;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
@@ -175,10 +179,10 @@
     }
 }
 .ending-social{
-    margin-left:3vw;
+    margin-left:10vw;
     .ending-social-header{
-        margin-bottom: 1vw;
-        font-size: 1.1vw;
+        margin-bottom: 5vw;
+        font-size: 4vw;
         font-family: 'CircularStd-Book';
         font-weight: bold;
         font-style: normal;
@@ -192,12 +196,12 @@
         display: flex;
     }
     .icon{
-        height:1.5vw;
-        width:1.5vw;
+        height:6vw;
+        width:6vw;
         cursor: pointer;
     }
     .first-icon{
-        margin-right: 1vw;
+        margin-right: 4vw;
     }
 
 }
