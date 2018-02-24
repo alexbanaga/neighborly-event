@@ -18,7 +18,6 @@ class LoginPage extends React.Component {
     Authenticate = () => {
         if (this.state.username == "admin" && this.state.password == "admin") {
             this.context.router.history.push("home");
-
         }
     }
 
