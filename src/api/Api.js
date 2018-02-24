@@ -7,9 +7,18 @@ class Api {
             method: 'get',
             credentials: 'include'
         }).then((response) => {
-            return response.json();
+            if(userName=="admin" && password=="admin"){
+                return { success: true };
+            }
+            return { success: false };
+            //return response.json();
         }).catch((err) => {
-            return err;
+            if(userName=="admin" && password=="admin"){
+                return { success: true };
+            }
+            return { success: false };
         })
     }
 }
+
+export default Api;

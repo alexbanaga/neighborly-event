@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import Particles from 'react-particles-js';
 import { particlesCfg } from './ParticlesCfg';
 import './LoginPage.scss';
+import * as loginActions from '../../../actions/Actions';
 
 class LoginPage extends React.Component {
     constructor(props, context) {
@@ -16,9 +17,11 @@ class LoginPage extends React.Component {
     }
 
     Authenticate = () => {
-        if (this.state.username == "admin" && this.state.password == "admin") {
-            this.context.router.history.push("home");
-        }
+        this.props.actions.login(this.state.username, this.state.password).then(() => {
+            if (this.props.loggedIn){
+                this.context.router.history.push("home");
+            }
+        });
     }
 
     onEmailChanged = (event) => {
@@ -69,7 +72,8 @@ class LoginPage extends React.Component {
 }
 
 LoginPage.propTypes = {
-
+    actions: PropTypes.object.isRequired,
+    loggedIn:PropTypes.bool.isRequired
 };
 
 LoginPage.contextTypes = {
@@ -77,12 +81,14 @@ LoginPage.contextTypes = {
 };
 
 function mapStateToProps(state) {
-    return state;
+    return {
+        loggedIn: state.loginReducer.loggedIn
+    };
 }
 
 function mapDispatchToProps(dispatch) {
     return {
-        actions: bindActionCreators({}, dispatch)
+        actions: bindActionCreators(loginActions, dispatch)
     };
 }
 
