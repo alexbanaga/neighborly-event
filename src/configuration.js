@@ -3,6 +3,7 @@ export const FIRST_SECTION = {
     header: "THE FUTURE OF PUBLIC FINANCE",
     minorHeader:"Join us to revolutionize the trillion-dollar market that shapes our future.",
     alert:"MUST HAVE RECEIVED INVATIATION TO ACCEPT INVATIATION",
+    alert_login:"* Must have received invitation to join the future of public finance conference",
     buttonContent:"ACCEPT INVITE"
 }
 

@@ -7,10 +7,10 @@ export function loginFailure() {
     return { type: 'LOGIN_FAILURE' };
 }
 
-export function login(username, password) {
+export function login(access_key) {
     return function (dispatch) {
         return Api
-            .login(username, password)
+            .login(access_key)
             .then(response => {
                 if (response.success == true) {
                     dispatch(loginSuccess());

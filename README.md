@@ -13,7 +13,6 @@ to run this application follow these instructions:
 
 Next, go to : http://localhost:3000
 
-Default username + password:
+Default access key:
 
-username: admin
-password: admin
+ admin

@@ -7,148 +7,120 @@
   }
 
 
-.login-page {
-    width: 100%;
-    height: 100%;
-    display: table;
-    background-image: linear-gradient(to left, #293da2, #042578);
-       
+
 .particles {
     position: absolute;
     width: 100%;
     z-index: 1;
   }
 
-  .form-container{
-    margin-top:10vw;
-    margin-left:37vw;
+
+
+  html, body{
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    background-color: #f7f9fc;
+  }
+
+.login-page {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+    
+  .header {
+    margin-top: 10vw;
+    vertical-align:middle;
+    text-align:center;
+    background-image: linear-gradient(to left, #9d26ff, #de2af7 9%, #ff5fc4 18%, #fbb888 33%, #9dfffd 73%, #6378e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative; 
+    font-size: 5vw;
+    font-family: 'neo-latina';
+    filter: drop-shadow(7px 7px 1px rgba(0,0,0, 0.5));
+  }
+  .invite-content {
+    display: block;
+    z-index: 5;
     position: relative;
   }
-  .form-bg{
-    z-index: 10;
+
+  .canvas{
+    
+  }
+  .particles {
     position: absolute;
-    width: 28vw;
-    height:32vw;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-shadow: 0 51px 116px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+    z-index: 1;
+    height: 95%;
   }
 
-  .form-content-container{
-    position: absolute;
-    z-index: 20;
-    margin-left:1.5vw;
+
+  .minor-header {
+    margin-top: 0.7em;
+    opacity: 0.99;
+    background-image: linear-gradient(to right, #9d26ff, #de2af7 9%, #ff5fc4 18%, #fbb888 33%, #9dfffd 73%, #6378e8);
+    vertical-align:middle;
+    text-align:center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3vw;
+    font-family: 'CircularStd-Book';
   }
 
-  .form-logo{
-    border-radius: 50%;
-    width: 9vw;
-    height: 9vw;
-    background-image: linear-gradient(139deg, #9d26ff, #de2af7 25%, #ff5fc4 47%, #fbb888 63%, #9dfffd 78%, #6378e8);
-    margin-top:3vw;
-    margin-left:8vw;
-  }
-
-  .logo-text {
-    font-family: Helvetica;
-    font-size: 1.5vw;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #ffffff;
-  }
-
-  .login-inputs{
-    border: 0;
-    border-color: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-      margin-left:5vw;
-      margin-top: 1vw;
-    width:15vw;
-    height: 2vw;
-    background-color: #f1f4f8;
-
-    margin-left:5vw;
-    font-family: 'Helvetica';
-    font-size:1vw;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
+  .th {
+    margin-top: 0.7em;
+    margin-bottom: 2em;
+    font-family: 'CircularStd-Book';
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: -0.8px;
     text-align: left;
-    color: #b1b4b9;
-    text-indent: 1vw;
-  }
-
-  .login-inputs::-webkit-input-placeholder{
-    text-indent: 1vw; 
-    margin-left:5vw;
-    font-family: 'Helvetica';
-    font-size:1vw;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #b1b4b9;
-  }
-
-  .access-btn{
-    margin-top:3vw;
-    margin-left:5vw;
-    height: 2.5vw;
-    width: 15vw;
-    border-radius: 4px;
-    background-image: linear-gradient(to left, #9d26ff, #de2af7 25%, #ff5fc4 47%, #fbb888 90%);
-  }
-  .access-btn-text{
-    cursor: pointer;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: 'Helvetica';
-    font-size: 1vw;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-align: center;
     color: #ffffff;
+    vertical-align:middle;
+    text-align:center;
+  }
+  
+  .th .text-style-1 {
+    position: relative;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .th .text-style-2 {
+    font-weight: normal;
   }
 
-  .login-hr{
-      border: none;
-    height: 0.1vw;
-    margin-top:1vw;
-    margin-left:5vw;
-    width: 15vw;
-    background-color: #efefef;
-  }
-
-  .login-text{
-      width:15vw;
-      margin-left:5vw;
-    font-family: Helvetica;
+  .must-have {
+    vertical-align:middle;
+    text-align:center;
+    opacity: 0.7;
+    font-family: 'CircularStd-Book';
     font-size: 0.9vw;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #6d7c91;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    margin-bottom: 10em;
+    width:20vw;
+    margin-left:40vw;
   }
 
-  .login-email{
-    font-family:Helvetica;
-    font-weight: bold;
-    cursor: pointer;
   }
+
+
+
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../../../public/fonts/CircularStd-Book.woff');
 }
 
-
+@font-face {
+    font-family: 'neo-latina';
+    src: url('../../../public/fonts/neo-latina.ttf');
+}
