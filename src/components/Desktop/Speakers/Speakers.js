@@ -10,7 +10,7 @@ const Speakers = () => {
         <SpeakersBackground/>
             <div className="speakers-container">
                 <div className="speakers-text-container">
-                    <div className="speakers-header">SPEAKERS</div>
+                    <div className="speakers-header">PRESENTERS</div>
                     <div className="speakers-underline"></div>
                     <div className="speakers-coming-soon">More speakers coming soon...</div>
                 </div>

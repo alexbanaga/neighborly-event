@@ -1,7 +1,7 @@
 export const particlesCfg = {
     particles: {
         "number": {
-            "value": 1000,
+            "value": 500,
             "density": {
                 "enable": true,
                 "value_area": 10000
@@ -27,11 +27,11 @@ export const particlesCfg = {
             }
         },
         "opacity": {
-            "value": 0.3,
+            "value": 0.6,
             "random": false,
             "anim": {
                 "enable": false,
-                "speed": 1,
+                "speed": 9,
                 "opacity_min": 0.1,
                 "sync": false
             }
@@ -41,7 +41,7 @@ export const particlesCfg = {
             "random": true,
             "anim": {
                 "enable": false,
-                "speed": 40,
+                "speed": 80,
                 "size_min": 0.1,
                 "sync": false
             }

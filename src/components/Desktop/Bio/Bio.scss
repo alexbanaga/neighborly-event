@@ -2,23 +2,23 @@
     width: 100%;
     height: 50vw;
     background-image: linear-gradient(182deg, #3a429f, #291f5a);
-    transform:skewY(-10deg);  
-    
+    transform:skewY(-10deg);
+
     .bio-container{
       display: flex;
     }
-  
+
   .bio-text-container {
     margin-top: 15vw;
     margin-left:15vw;
     transform:skewY(10deg);
     display: inline-block;
-    
+
   }
   .bio-lower-title {
     display: flex;
   }
-  
+
   .bio-title {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -26,7 +26,7 @@
     font-size:5vw;
     background-image: linear-gradient(to left, #9165ee, #ae52d9 55%, #cd29ee);
   }
-  
+
   .bio-title-line{
     margin-left:1vw;
     margin-top:2vw;
@@ -36,7 +36,7 @@
     border-radius: 3.5px;
     background-image: linear-gradient(to left, #c92feb, #8a5fe3);
   }
-  
+
   .bio-paragraph {
     width: 35vw;
     font-size: 1vw;
@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .bio-button-text{
     font-size: 1vw;
     font-family: 'CircularStd-Book';
@@ -71,14 +71,14 @@
     line-height: normal;
     letter-spacing: -0.5px;
     color: #ffffff;
-    
+
   }
   .bio-img-container{
     transform:skewY(10deg);
     margin-left:2vw;
     margin-top:5vw;
   }
-   
+
   .bio-img{
   height: 35vw;
   width: 40vw;
@@ -95,17 +95,17 @@
   }
   .bio-address-text{
     display: flex;
-margin-left:0.5vw;
-  font-family: 'CircularStd-Book';
-  font-size: 1.5vw;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.6px;
-  color: rgba(255, 255, 255, 0.8);
+    margin-left:0.5vw;
+    font-family: 'CircularStd-Book';
+    font-size: 1.5vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: rgba(255, 255, 255, 0.8);
   }
-  
+
   .bio-text-highlight{
     font-weight: 500;
     color: #ffffff;
@@ -127,7 +127,7 @@ margin-left:0.5vw;
 
 
 
-  
+
 @font-face {
   font-family: 'CircularStd-Book';
   src: url('../../../public/fonts/CircularStd-Book.woff');

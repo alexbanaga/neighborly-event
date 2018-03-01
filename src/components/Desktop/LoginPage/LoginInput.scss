@@ -2,24 +2,24 @@
     margin-top:3vw;
     margin-left:35vw;
     .input-container {
-        
+
     }
-    
+
 }
 
 .access-input {
-    height:3.5vw;
+    height:3.7vw;
     width:25vw;
     border-width: 0.2vw 0vw 0.2vw 0.2vw;
     background-color: #0c1d54;
-    border-image-source: linear-gradient(to right, #3d4c9a, #5a83b8, #9dfffc , #fca197 , #fe7faf , #ef46dc , #be29f9 , #6226fe);    
+    border-image-source: linear-gradient(to right, #3d4c9a, #5a83b8, #9dfffc , #fca197 , #fe7faf , #ef46dc , #be29f9 , #6226fe);
     border-image-slice: 1;
-    text-indent: 4vw;
+    text-indent: 38px;
     background-image: url('../../../public/images/lock.svg') ;
     background-repeat: no-repeat;
     background-size: 1.5vw 1.5vw;
     background-position-y: 1vw;
-    background-position-x: 2vw;
+    background-position-x: 12px;
     color: #ffffff;
     outline:0;
 }
@@ -42,12 +42,12 @@
 
 .enter-button{
     border-width: 0.2vw 0.2vw 0.2vw 0vw;
-    border-image-source: linear-gradient(to right, #3d4c9a, #5a83b8, #9dfffc , #fca197 , #fe7faf , #ef46dc , #be29f9 , #6226fe);    
+    border-image-source: linear-gradient(to right, #3d4c9a, #5a83b8, #9dfffc , #fca197 , #fe7faf , #ef46dc , #be29f9 , #6226fe);
     border-image-slice: 1;
     cursor: pointer;
     background-color: #0c1d54;
     font-family: Helvetica;
-    font-size: 0.6vw;
+    font-size: 0.8vw;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -59,7 +59,7 @@
 }
 .enter-button:focus {
     outline:0;
-    
+
 }
 
 .btn-seperator {

@@ -1,43 +1,43 @@
 
 export const FIRST_SECTION = {
-    header: "THE FUTURE OF PUBLIC FINANCE",
-    minorHeader:"Join us to revolutionize the trillion-dollar market that shapes our future.",
+    header: "As an innovator, the future of public finance is in your hands.",
+    minorHeader:"Help shape the trillion dollar market that shapes our collective future.",
     alert:"MUST HAVE RECEIVED INVATIATION TO ACCEPT INVATIATION",
     alert_login:"* Must have received invitation to join the future of public finance conference",
     buttonContent:"ACCEPT INVITE"
 }
 
 export const SECOND_SECTION = {
-    header:"WHAT IS TFPF?",
-    firstParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci.",
-    secondParagraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci."
+    header:"WHY TFPF?",
+    firstParagraph:"For two centuries, public finance built vital public projects like schools, parks, and roads. But can it adapt to serve innovation? How does rapidly changing technology help or harm?",
+    secondParagraph:"The Future of Public Finance is a once-only convening by invitation of market leaders, technologists, and innovative public policy shapers to imagine a future in which public finance embraced change in order to stay relevant, and helped solve some of the world’s hardest problems."
 }
 
 export const SPEAKERS = [
     {
-        speakerName: "JOHN DOE",
-        speakerPosition: "CO-FOUNDER OF NEO",
+        speakerName: "Kiran Jain",
+        speakerPosition: "Cofounder, Neighborly",
         speakerImgName: "you-speaker.png"
     },
     {
-        speakerName: "JOHN DOE",
+        speakerName: "Zac Bookman",
+        speakerPosition: "CEO, Opengov",
+        speakerImgName: "you-speaker.png"
+    }, {
+        speakerName: "Adrian Fenty",
+        speakerPosition: "Former Mayor, Washington DC",
+        speakerImgName: "you-speaker.png"
+    }, {
+        speakerName: "Ryan Singer",
         speakerPosition: "CO-FOUNDER OF NEO",
         speakerImgName: "you-speaker.png"
     }, {
-        speakerName: "JOHN DOE",
+        speakerName: "Adrian Fenty",
         speakerPosition: "CO-FOUNDER OF NEO",
         speakerImgName: "you-speaker.png"
     }, {
-        speakerName: "JOHN DOE",
-        speakerPosition: "CO-FOUNDER OF NEO",
-        speakerImgName: "you-speaker.png"
-    }, {
-        speakerName: "JOHN DOE",
-        speakerPosition: "CO-FOUNDER OF NEO",
-        speakerImgName: "you-speaker.png"
-    }, {
-        speakerName: "JOHN DOE",
-        speakerPosition: "CO-FOUNDER OF NEO",
+        speakerName: "You?",
+        speakerPosition: "Want to present? [Submit]",
         speakerImgName: "you-speaker.png"
     }
 ];
@@ -46,18 +46,18 @@ export const SPEAKERS = [
 export const LEFT_TOPICS = [
     {
         imgUrl: 'orange-pink-icon.svg',
-        title: 'Women run public finance',
-        paragraphContent: 'Integer tincidunt quam quam, a lacinia risus scelerisque vitae. Maecenas ex metus mollis id laoreet ut.'
+        title: 'ADAPT? OR DIE?',
+        paragraphContent: 'Today’s market rewards tried & true over new, favors mega scale over right-sized, and punishes communities that need it most. Will public finance adapt to new needs, or die? '
     },
     {
         imgUrl: 'pink-purple-icon.svg',
-        title: 'Women run public finance',
-        paragraphContent: 'Integer tincidunt quam quam, a lacinia risus scelerisque vitae. Maecenas ex metus mollis id laoreet ut.'
+        title: 'GLOBALIZED, ATOMIZED, STANDARDIZED',
+        paragraphContent: 'Technology has helped to make global, atomic, and standards-driven other corners of finance. Will it happen for public finance? '
     },
     {
         imgUrl: 'purple-blue-icon.svg',
-        title: 'Women run public finance',
-        paragraphContent: 'Integer tincidunt quam quam, a lacinia risus scelerisque vitae. Maecenas ex metus mollis id laoreet ut.'
+        title: 'WHAT ELSE?',
+        paragraphContent: 'Have a topic in mind? Want to share your idea for TFPF? [Submit]'
     }
 
 ];
@@ -66,18 +66,18 @@ export const LEFT_TOPICS = [
 export const RIGHT_TOPICS = [
     {
         imgUrl: 'blue-icon.svg',
-        title: 'Women run public finance',
-        paragraphContent: 'Integer tincidunt quam quam, a lacinia risus scelerisque vitae. Maecenas ex metus mollis id laoreet ut.'
+        title: 'WHAT IF WOMEN RAN PUBLIC FINANCE?',
+        paragraphContent: 'More schools and results, fewer stadiums and mistakes. What would a gender-balanced public finance industry look like?'
     },
     {
         imgUrl: 'blue-orange-icon.svg',
-        title: 'Women run public finance',
-        paragraphContent: 'Integer tincidunt quam quam, a lacinia risus scelerisque vitae. Maecenas ex metus mollis id laoreet ut.'
+        title: 'BLOCKCHAIN CHANGES EVERYTHING',
+        paragraphContent: 'Today’s market is electronic, but not in a good way. In TFPF, the market is protocol-driven, with all new capabilities unleashed.'
     },
     {
         imgUrl: 'orange-pink-icon.svg',
-        title: 'Women run public finance',
-        paragraphContent: 'Integer tincidunt quam quam, a lacinia risus scelerisque vitae. Maecenas ex metus mollis id laoreet ut.'
+        title: 'HELP COMMUNITIES INNOVATE',
+        paragraphContent: 'Today, public finance invisibly guides the nature and scale of projects built. In TFPF, communities borrow what they need, when they need it on their terms. '
     }
 ];
 
@@ -100,19 +100,19 @@ export const SCHEDULE = [
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":0,
-            }, 
+            },
             {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":1,
-            }, 
+            },
             {
                 time: "11:30-12:00",
                 title: "Doors open",
                 "description": "Integer tincidunt quam quam lacinaia",
                 "eventLocation":2,
-            }, 
+            },
             {
                 time: "11:30-12:00",
                 title: "Doors open",
@@ -145,6 +145,6 @@ export const SCHEDULE = [
 ]
 
 export const BIO = {
-    bioText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis diam orci.",
+    bioText:"Set in the atmospheric, quirky nooks of San Francisco’s The Battery, you’ll enjoy thought provoking works of art, top notch food, and conversation with fellow thought leaders. The Battery includes a limited number of on-site hotel rooms, reserved for TFPF.",
     bioAddress:"The Battery San Francisco, CA 94111"
 }

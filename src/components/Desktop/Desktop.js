@@ -16,7 +16,6 @@ const Desktop = () => {
             <div className="overlap">
                 <Speakers />
                 <Topics />
-                <Schedule />
                 <Bio />
                 <Ending />
             </div>

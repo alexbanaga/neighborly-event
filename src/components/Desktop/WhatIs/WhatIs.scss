@@ -21,22 +21,22 @@
       display: inline-grid;
       grid-template-columns: auto auto auto;
       width:50%;
-      
+
     }
     .what-is-text-container {
       margin-top:15vw;
     }
     .what-is-img{
-     
+
     }
     .img {
       height:50vw;
       width: 50vw;
     }
-    
+
      .what-is-text-container-first{
      }
-    
+
     .what-is-header{
         background-image: linear-gradient(to right, #ffae91, #f68efe 54%, #8f5eff);
         -webkit-background-clip: text;
@@ -44,9 +44,10 @@
         font-size: 4vw;
         font-family: 'neo-latina';
         text-align: left;
+
       }
-    
-    
+
+
     .what-is-line {
       margin-bottom: 1em;
         text-align: center;
@@ -55,7 +56,7 @@
         border-radius: 3.5px;
         background-image: linear-gradient(to right, #ffae91, #f68efe 54%, #8f5eff);
       }
-    
+
       .first-paragraph {
         margin-bottom: 0.5em;
         width: 25em;
@@ -68,15 +69,16 @@
         line-height: 1.46;
         letter-spacing: -1px;
         text-align: left;
-        color: #8c8bcb;
+        color: #c8a9d6;
       }
-    
+
       .second-paragraph {
-        width: 25em;
+        padding-top: 80px;
+        width: 28em;
         height: 3em;
         opacity: 0.75;
         font-family: 'CircularStd-Book';
-        font-size: 1.2vw;
+        font-size: 1vw;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
@@ -85,13 +87,13 @@
         text-align: left;
         color: #b9bfee;
       }
-    
+
       .line-seperator{
         margin-bottom: 0.5em;
         height: 1px;
         background-color: #4a4399;
       }
-    
+
   }
 
 
