@@ -7,7 +7,7 @@ const TopicTitle = () => {
             <div className="topic-header">CONFERENCE TOPICS</div>
             <div className="topic-underline"></div>
             <div className="topic-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit urabitur eleifend ante ac vestibulum mollis rem ipsum dolor sit amet, consectetur adipiscing elit.
+                Explore controversial topics from the forefront of change underway in your industry.
             </div>
         </div>
     )

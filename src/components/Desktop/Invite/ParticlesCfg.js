@@ -1,7 +1,7 @@
 export const particlesCfg = {
     particles: {
         "number": {
-            "value": 100,
+            "value": 30,
             "density": {
                 "enable": true,
                 "value_area": 1000
@@ -27,11 +27,11 @@ export const particlesCfg = {
             }
         },
         "opacity": {
-            "value": 0.6,
+            "value": 0.7,
             "random": false,
             "anim": {
                 "enable": false,
-                "speed": 1,
+                "speed": 8,
                 "opacity_min": 0.1,
                 "sync": false
             }
@@ -48,9 +48,9 @@ export const particlesCfg = {
         },
         "line_linked": {
             "enable": true,
-            "distance": 120,
+            "distance": 90,
             "color": "#ffffff",
-            "opacity": 0.4,
+            "opacity": 0.3,
             "width": 1
         },
     },

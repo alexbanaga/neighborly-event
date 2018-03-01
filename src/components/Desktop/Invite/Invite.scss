@@ -12,18 +12,26 @@ html, body{
     box-shadow: 0 9px 4px 0 rgba(0, 0, 0, 0.5);
     display: table;
 
-    
+
   .header {
-    margin-top: 2em;
+    line-height: 60px;
+    margin: 7vw 0px 2vw 0px;
     vertical-align:middle;
     text-align:center;
     background-image: linear-gradient(to left, #9d26ff, #de2af7 9%, #ff5fc4 18%, #fbb888 33%, #9dfffd 73%, #6378e8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position:relative; 
-    font-size: 4vw;
+    position:relative;
+    font-size: 6vw;
     font-family: 'neo-latina';
     filter: drop-shadow(7px 7px 1px rgba(0,0,0, 0.5));
+    background: linear-gradient(to left, #9d26ff 0%, #de2af7 20%, #ff5fc4 40%, #fbb888 60%, #9dfffd 80%, #6378e8 90%, #9d26ff 100%);
+    background-size: 300% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 12s linear infinite;
   }
   .invite-content {
     display: block;
@@ -31,10 +39,10 @@ html, body{
     position: relative;
   }
   .particles-container {
-    
+
   }
   .canvas{
-    
+
   }
   .particles {
     position: absolute;
@@ -45,14 +53,14 @@ html, body{
 
 
   .minor-header {
-    margin-top: 0.7em;
+    margin-top: 0.9em;
     opacity: 0.99;
     background-image: linear-gradient(to right, #9d26ff, #de2af7 9%, #ff5fc4 18%, #fbb888 33%, #9dfffd 73%, #6378e8);
     vertical-align:middle;
     text-align:center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1vw;
+    font-size: 1.4vw;
     font-family: 'CircularStd-Book';
   }
 
@@ -68,13 +76,13 @@ html, body{
     vertical-align:middle;
     text-align:center;
   }
-  
+
   .th .text-style-1 {
     position: relative;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
   }
-  
+
   .th .text-style-2 {
     font-weight: normal;
   }
@@ -96,15 +104,56 @@ html, body{
 
   .inviteButton {
     display: table;
-    width: 15vw;;
-    height: 4vw;;
+    width: 217px;
+    height: 52px;
     background-color: #143089;
     box-shadow: 7px 10px 0 0 rgba(0, 0, 0, 0.3);
-    border-style: solid;
-    border-width: 4px;
-    border-image-source: linear-gradient(251deg, #3d4c9a, #5a83b8 23%, #9dfffc 39%, #fca197 52%, #fe7faf 66%, #ef46dc 78%, #be29f9 86%, #6226fe);
+    // border-style: solid;
+    // border-width: 4px;
+    // border-image-source: linear-gradient(251deg, #3d4c9a, #5a83b8 23%, #9dfffc 39%, #fca197 52%, #fe7faf 66%, #ef46dc 78%, #be29f9 86%, #6226fe);
     border-image-slice: 1;
     margin-bottom: 2em;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    tranistion: margin-top 2s ease-in-out;
+  }
+
+  .inviteButton::before {
+    top: -48px;
+    left: -47px;
+    display: table;
+    -webkit-transform: translate3d(50px, 50px, 1px);
+    position: absolute;
+    z-index: 1;
+    width: 211px;
+    height: 47px;
+    background: #042578;
+    content: '';
+  }
+
+  .inviteButton::after {
+    background: linear-gradient(251deg, #3d4c9a, #5a83b8 23%, #9dfffc 39%, #fca197 52%, #fe7faf 66%, #ef46dc 78%, #be29f9 86%, #6226fe);
+    -webkit-animation: rotateRectangle 3s infinite linear;
+    -moz-animation: rotateRectangle 3s infinite linear;
+    animation: rotateRectangle 3s infinite linear;
+    position: absolute;
+    z-index: 0;
+    top: -330px;
+    left: -90px;
+    display: block;
+    width: 500px;
+    height: 500px;
+    content: '';
+  }
+
+  @-webkit-keyframes rotateRectangle {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
   }
 
   .center-button{
@@ -114,6 +163,11 @@ html, body{
   }
 
   .accept-invite-text {
+    z-index: 30;
+    position: absolute;
+    width: 100%;
+    left: -4px;
+    top: 16px;
     display: table-cell;
     vertical-align:middle;
     text-align:center;

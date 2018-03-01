@@ -14,13 +14,13 @@
         border-image-slice: 1;
         margin-bottom: 2em;
       }
-    
+
       .center-button{
         vertical-align:middle;
         text-align:-webkit-center;
         cursor:pointer;
       }
-    
+
       .accept-invite-text {
         display: table-cell;
         vertical-align:middle;
@@ -34,9 +34,8 @@
         letter-spacing: 1px;
         color: #ffffff;
         text-shadow: 0 3px 0 rgba(0, 0, 0, 0.14);
-    
+
         .container{
-          margin-left:2vw;
           display: flex;
         }
         .envelope{
@@ -44,9 +43,9 @@
           height: 1.5vw;
         }
       }
-      
+
 .ending-button-and-text-container{
-    display: flex;    
+    display: flex;
 }
 
 .ending-text-container{
@@ -124,9 +123,10 @@
     background-image: linear-gradient(to left, #5826ff, #de2af7 25%, #ff5fc4 47%, #fbb888 63%, #9dfffd 78%, #3c4b99);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position:relative; 
+    position:relative;
     font-size: 5vw;
     font-family: 'neo-latina';
+    line-height: 50px;
     filter: drop-shadow(7px 7px 1px rgba(0,0,0, 0.1));
   }
 

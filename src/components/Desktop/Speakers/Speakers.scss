@@ -2,20 +2,21 @@
     width: 100%;
     background-image: linear-gradient(175deg, #e57c9b, #653192);
     transform:skewY(-10deg);
-    
+
     .speakers-container{
       transform:skewY(10deg);
       vertical-align:middle;
       text-align:center;
       display: inline-block;
       margin-left: 10vw;
+      text-transform: uppercase;
     }
-    
+
     .speakers-text-container{
       display: inline-block;
       margin-top: 5vw;
       margin-bottom: 5vw;
-      
+
     }
     .speakers-header{
       background-image: linear-gradient(to right, #ffebf5, #ffa2bb);
@@ -32,7 +33,7 @@
       background-image: linear-gradient(to right, #ffebf5, #ffa2bb);
       margin-bottom: 2em;
     }
-    
+
     .speakers-coming-soon{
       font-family: 'CircularStd-Book';
       font-size: 20px;
@@ -43,7 +44,7 @@
       letter-spacing: -0.9px;
       color: #efbed4;
     }
-    
+
     .speakers-images-container{
       display: grid;
       justify-content: center;
