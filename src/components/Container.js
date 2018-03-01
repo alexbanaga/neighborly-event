@@ -21,12 +21,12 @@ class Container extends React.Component {
         return (
             this.props.loggedIn &&
             <div>
-                <MediaQuery minDeviceWidth={800}>
+                <MediaQuery  minWidth={768}>
                     <div>
                         <Desktop />
                     </div>
                 </MediaQuery>
-                <MediaQuery maxDeviceWidth={800}>
+                <MediaQuery maxWidth={768}>
                     <Mobile />
                 </MediaQuery>
             </div>
