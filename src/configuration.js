@@ -3,7 +3,7 @@ export const FIRST_SECTION = {
     header: "As an innovator, the future of public finance is in your hands.",
     minorHeader:"Help shape the trillion dollar market that shapes our collective future.",
     alert:"MUST HAVE RECEIVED INVATIATION TO ACCEPT INVATIATION",
-    alert_login:"* Must have received invitation to join the future of public finance conference",
+    alert_login:"* Enter the key on your invitation.",
     buttonContent:"ACCEPT INVITE"
 }
 
@@ -15,11 +15,15 @@ export const SECOND_SECTION = {
 
 export const SPEAKERS = [
     {
-        speakerName: "Kiran Jain",
-        speakerPosition: "Cofounder, Neighborly",
+        speakerName: "Justina Lai",
+        speakerPosition: "Director of Impact Investing, Wetherby Asset Management",
         speakerImgName: "you-speaker.png"
     },
     {
+        speakerName: "Kiran Jain",
+        speakerPosition: "Cofounder, Neighborly",
+        speakerImgName: "you-speaker.png"
+    }, {
         speakerName: "Zac Bookman",
         speakerPosition: "CEO, Opengov",
         speakerImgName: "you-speaker.png"
@@ -28,16 +32,28 @@ export const SPEAKERS = [
         speakerPosition: "Former Mayor, Washington DC",
         speakerImgName: "you-speaker.png"
     }, {
-        speakerName: "Ryan Singer",
-        speakerPosition: "CO-FOUNDER OF NEO",
+        speakerName: "Kat Taylor",
+        speakerPosition: "Co-founder and Co-CEO, Beneficial State Bank",
         speakerImgName: "you-speaker.png"
     }, {
-        speakerName: "Adrian Fenty",
-        speakerPosition: "CO-FOUNDER OF NEO",
+        speakerName: "Libby Schaaf",
+        speakerPosition: "Mayor, City of Oakland",
         speakerImgName: "you-speaker.png"
     }, {
-        speakerName: "You?",
-        speakerPosition: "Want to present? [Submit]",
+        speakerName: "John Crossman",
+        speakerPosition: "OpenBook, Neighborly",
+        speakerImgName: "you-speaker.png"
+    }, {
+        speakerName: "Eric Glass",
+        speakerPosition: "Portfolio Manager, Alliance Bernstein",
+        speakerImgName: "you-speaker.png"
+    }, {
+        speakerName: "Tom Haslett",
+        speakerPosition: "Partner, Tilt Investments",
+        speakerImgName: "you-speaker.png"
+    }, {
+        speakerName: "Christine Todd",
+        speakerPosition: "President, Neighborly Investments ",
         speakerImgName: "you-speaker.png"
     }
 ];

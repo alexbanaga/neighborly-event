@@ -13,7 +13,7 @@ const Ending = () => {
                     <div className="ending-date">May 14-15, 2018<element className="ending-gray-text"> / The Battery</element> San Fransisco</div>
                 </div>
                 <div className="ending-button-container">
-                    <InviteButton />
+                    <a href="https://www.eventbrite.com/e/the-future-of-public-finance-tickets-43077323434" target="blank"><InviteButton /></a>
                     <div className="ending-button-under-text">*  Invitation only. Invitations are non-transferable without permission of TFPF.</div>
                 </div>
             </div>

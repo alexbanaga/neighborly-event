@@ -12,7 +12,7 @@ const MobileInvite = () => {
                 <div className="th">
                     May 14-15, <element className="text-style-1"> 2018 </element>/ The Battery SF
             </div>
-                <div className="center-button"><InviteButton /></div>
+                <a href="https://www.eventbrite.com/e/the-future-of-public-finance-tickets-43077323434" target="blank">><div className="center-button"><InviteButton /></div></a>
                 <div className="must-have">{FIRST_SECTION.alert}</div>
             </div>
         </div>

@@ -16,7 +16,7 @@ const MobileEnding = () => {
                     </div>
                 </div>
                 <div className="ending-button-container">
-                    <InviteButton />
+                    <a href="https://www.eventbrite.com/e/the-future-of-public-finance-tickets-43077323434" target="blank"><InviteButton /></a>
                     <div className="ending-button-under-text">* Must have received invitation to accept invitation.</div>
                 </div>
             </div>

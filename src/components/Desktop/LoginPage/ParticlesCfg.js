@@ -1,7 +1,7 @@
 export const particlesCfg = {
     particles: {
         "number": {
-            "value": 500,
+            "value": 200,
             "density": {
                 "enable": true,
                 "value_area": 10000
@@ -15,7 +15,7 @@ export const particlesCfg = {
             "type": "circle",
             "stroke": {
                 "width": 0,
-                "color": "#fff"
+                "color": "#9dabe8"
             },
             "polygon": {
                 "nb_sides": 5
@@ -27,11 +27,11 @@ export const particlesCfg = {
             }
         },
         "opacity": {
-            "value": 0.6,
+            "value": 0.3,
             "random": false,
             "anim": {
                 "enable": false,
-                "speed": 9,
+                "speed": 19,
                 "opacity_min": 0.1,
                 "sync": false
             }
