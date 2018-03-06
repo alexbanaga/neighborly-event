@@ -16,9 +16,9 @@ const MobileBio = () => {
                         <div className="bio-paragraph">
                             {BIO.bioText}
                         </div>
-                        <div className="bio-button">
+                        <a href="https://www.thebatterysf.com/hotel" target="_blank"><div className="bio-button">
                             <div className="bio-button-text">BOOK YOUR ROOM</div>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 <div className="bio-img-container">
@@ -32,7 +32,7 @@ const MobileBio = () => {
                         </div>
                     </div>
                     <div className="bio-text-underline"> </div>
-                    
+
                 </div>
             </div>
 
