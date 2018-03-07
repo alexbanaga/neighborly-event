@@ -91,7 +91,7 @@ export const RIGHT_TOPICS = [
         paragraphContent: 'Today’s market is electronic, but not in a good way. In TFPF, the market is protocol-driven, with all new capabilities unleashed.'
     },
     {
-        imgUrl: 'orange-pink-icon.svg',
+        imgUrl: 'pink-orange-icon.svg',
         title: 'HELP COMMUNITIES INNOVATE',
         paragraphContent: 'Today, public finance invisibly guides the nature and scale of projects built. In TFPF, communities borrow what they need, when they need it on their terms. '
     }

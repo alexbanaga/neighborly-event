@@ -10,7 +10,7 @@ const MobileBio = () => {
                     <div className="text-container">
                         <div className="bio-title">CONFERENCE</div>
                         <div className="bio-lower-title">
-                            <div className="bio-title">BIO</div>
+                            <div className="bio-title">VENUE</div>
                             <div className="bio-title-line"></div>
                         </div>
                         <div className="bio-paragraph">
